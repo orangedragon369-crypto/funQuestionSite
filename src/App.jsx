@@ -1,4 +1,4 @@
-import './style/App.css'
+import './src/style/App.css'
 import PastQuestions from './pieces/PastQuestions'
 import Question from './pieces/question'
 import Responses from './pieces/responses'
