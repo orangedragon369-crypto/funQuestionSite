@@ -1,3 +1,3 @@
 export default function Question(){
-    return(<></>)
+    return(<p>Question</p>)
 }

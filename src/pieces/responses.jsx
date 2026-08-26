@@ -1,3 +1,3 @@
 export default function Responses(){
-    return(<></>)
+    return(<p>Response</p>)
 }

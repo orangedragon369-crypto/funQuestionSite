@@ -1,3 +1,3 @@
 export default function QuestionRecomendations(){
-    return(<></>)
+    return(<>Question Recomendation</>)
 }

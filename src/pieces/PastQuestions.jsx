@@ -1,3 +1,3 @@
 export default function PAstQuestions(){
-  return (<></>);
+  return (<>Past Questions</>);
 }

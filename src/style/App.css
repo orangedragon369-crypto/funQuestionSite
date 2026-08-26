@@ -1,4 +1,83 @@
-.row {
+body, #root {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #bdbcbc;
+}
+
+.row, .column, #root {
   display: flex;
-  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px 5px 5px 10px;
+  border-radius: 7px;
+  background-color: #f57631;
+  --hovered: false;
+}
+nav:hover {
+  --hovereed: true;
+  margin: 0;
+  border-radius: 0;
+  padding: 2.5vh 2.5vw;
+  height: 95vh;
+  width: 200px;
+}
+nav:hover a {
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  padding: 15% 5vw;
+  color: #fff;
+  text-decoration: none;
+}
+nav:hover .menu {
+  display: none;
+}
+nav:hover a, nav:hover .auth {
+  display: block;
+}
+nav button {
+  background-color: #bdbcbc;
+}
+nav a, nav .auth {
+  display: none;
+}
+
+.active {
+  background-color: #dd8800;
+}
+
+@media (min-width: 576px) {
+  nav {
+    background-color: #f57631;
+    padding: 2.5vh 2.5vw;
+    height: 95vh;
+    width: 200px;
+    margin: 0;
+    border-radius: 0;
+  }
+  nav a {
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 15% 5vw;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav a, nav .auth {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
 }/*# sourceMappingURL=App.css.map */
