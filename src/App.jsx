@@ -13,18 +13,44 @@ function App() {
         <Nav/>
       </div>
         <Routes>
-          <Route path={"/"} element={<div className='column'>
+          <Route path={"/"} element={<div className='column qa'>
             <Question/><Responses/>
           </div>}/>
-          <Route path={"/pastquestions"} element={<>
+          {/* <Route path={"/pastquestions"} element={<>
             <PastQuestions/>
-          </>}/>
-          <Route path={"/questionrecomendations"} element={<>
+          </>}/> */}
+          {/* <Route path={"/questionrecomendations"} element={<>
             <QuestionRecomendations/>
-          </>}/>
+          </>}/> */}
         </Routes>
     </>
   )
 }
 
 export default App;
+
+/*
+prevent multi click
+cleear form
+hamber not square 
+absolute in large ghange to stick
+responses
+  use html table
+  sort by not id
+    time 
+    user
+    liked
+  add time stamp
+  center like with flex
+    add thumbs up
+  in flex with gap
+  add border
+  separate user and response user bold
+  refuse empty resonses
+not orange
+consistent style
+comment responses
+round boxes
+hover effect
+standardinzing spacing
+*/

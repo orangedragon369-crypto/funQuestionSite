@@ -8,8 +8,8 @@ export default function Nav(){
     <nav className="column">
         <i className="fa-solid fa-bars menu"></i>
         <NavLink to={"/"}end className={activeClass}>Home</NavLink>
-        <NavLink to={"/pastquestions"} className={activeClass}>Past Questions</NavLink>
-        <NavLink to={"/questionrecomendations"} className={activeClass}>Question Recomendations</NavLink>
+        {/* <NavLink to={"/pastquestions"} className={activeClass}>Past Questions</NavLink> */}
+        {/* <NavLink to={"/questionrecomendations"} className={activeClass}>Question Recomendations</NavLink> */}
         <Auth/>
     </nav>
   </span>);

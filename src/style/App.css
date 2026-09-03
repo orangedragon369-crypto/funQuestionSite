@@ -6,13 +6,33 @@ body, #root {
   background-color: #bdbcbc;
 }
 
-.row, .column, #root {
+.row, .column, #root, .response {
   display: flex;
 }
 
 .column {
   flex-direction: column;
   justify-content: space-around;
+}
+
+.qa {
+  padding: 15px;
+  width: 100%;
+  justify-content: start;
+}
+.qa .question-box, .qa .form-field {
+  background-color: #dd8800;
+  padding: 20px;
+  color: white;
+}
+.qa .question-box {
+  margin: 15px 0 15px;
+}
+
+.response {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
 }
 
 nav {
@@ -30,13 +50,14 @@ nav:hover {
   border-radius: 0;
   padding: 2.5vh 2.5vw;
   height: 95vh;
-  width: 200px;
+  width: 150px;
+  position: absolute;
 }
 nav:hover a {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
-  padding: 15% 5vw;
+  padding: 5px;
   color: #fff;
   text-decoration: none;
 }
@@ -62,15 +83,17 @@ nav a, nav .auth {
     background-color: #f57631;
     padding: 2.5vh 2.5vw;
     height: 95vh;
-    width: 200px;
+    width: 150px;
     margin: 0;
     border-radius: 0;
   }
   nav a {
     height: -moz-fit-content;
     height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     text-align: center;
-    padding: 15% 5vw;
+    padding: 5px;
     color: #fff;
     text-decoration: none;
   }

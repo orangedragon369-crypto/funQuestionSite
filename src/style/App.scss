@@ -8,13 +8,35 @@ body, #root{
     background-color: var.$side3;
 }
 
-.row, .column, #root{
+.row, .column, #root, .response{
     display: flex;
 }
 
 .column{
     flex-direction: column;
     justify-content: space-around;
+}
+
+.qa{
+    padding: 15px;
+    width: 100%;
+    justify-content: start;
+
+    .question-box, .form-field{
+        background-color: var.$side1;
+        padding: 20px;
+        color: white;
+    }
+
+    .question-box{
+        margin: 15px 0 15px;
+    }
+}
+
+.response{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
 }
 
 nav{
@@ -32,12 +54,13 @@ nav{
         border-radius: 0;
         padding: 2.5vh 2.5vw;
         height: 95vh;
-        width: 200px;
+        width: 150px;
+        position: absolute;
 
         a{
             height: fit-content;
             text-align: center;
-            padding: 15% 5vw;
+            padding: 5px;
             color: #fff;
             text-decoration: none;
         }
@@ -69,14 +92,15 @@ nav{
         background-color: var.$main-color;
         padding: 2.5vh 2.5vw;
         height: 95vh;
-        width: 200px;
+        width: 150px;
         margin: 0;
         border-radius: 0;
     
         a{
             height: fit-content;
+            width: fit-content;
             text-align: center;
-            padding: 15% 5vw;
+            padding: 5px;
             color: #fff;
             text-decoration: none;
         }
