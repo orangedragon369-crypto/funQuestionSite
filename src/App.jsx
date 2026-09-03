@@ -30,6 +30,8 @@ function App() {
 export default App;
 
 /*
+Notes to add
+
 prevent multi click
 clear form
 hamberg not square 
