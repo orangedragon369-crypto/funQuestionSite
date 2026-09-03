@@ -31,9 +31,9 @@ export default App;
 
 /*
 prevent multi click
-cleear form
-hamber not square 
-absolute in large ghange to stick
+clear form
+hamberg not square 
+absolute in large change to stick
 responses
   use html table
   sort by not id
@@ -42,15 +42,15 @@ responses
     liked
   add time stamp
   center like with flex
-    add thumbs up
+    switch to thumbs up
   in flex with gap
   add border
-  separate user and response user bold
-  refuse empty resonses
+  separate user and response, user bold
+  refuse empty responses
 not orange
 consistent style
 comment responses
 round boxes
-hover effect
+hover effect on buttons
 standardinzing spacing
 */
