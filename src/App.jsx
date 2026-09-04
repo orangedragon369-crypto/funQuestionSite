@@ -32,6 +32,7 @@ export default App;
 /*
 Notes to add
 
+add photos in response and question
 prevent multi click
 clear form
 hamberg not square 
@@ -49,9 +50,9 @@ responses
   add border
   separate user and response, user bold
   refuse empty responses
+  comment responses
 not orange
 consistent style
-comment responses
 round boxes
 hover effect on buttons
 standardinzing spacing
